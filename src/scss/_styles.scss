@@ -1,0 +1,24 @@
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+
+#select1 {
+  width: 25vw;
+  height: 20px;
+  background-color: lightgray;
+  border: none;
+  outline: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, skyblue 50%),
+    linear-gradient(135deg, skyblue, transparent 50%),
+    linear-gradient(skyblue, skyblue);
+  background-position:
+    100% 0;
+  background-size:
+    16px;
+  background-repeat: no-repeat;
+  & option {
+    background-color: white;
+  }
+}
